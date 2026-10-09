@@ -1,0 +1,17 @@
+# Keys & secrets — NEVER commit these
+*.pem
+*.ppk
+*.key
+.env
+.env.*
+.aws/
+credentials*
+
+# Python
+__pycache__/
+*.pyc
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
