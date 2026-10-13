@@ -12,6 +12,7 @@ Engineer**, one real lab at a time: AWS security labs, web security practice
 | # | Lab | What it covers |
 |---|-----|---------------|
 | 01 | [First EC2 — Secure Launch & IMDSv2](aws-labs/01-first-ec2-secure-launch/) | Least-privilege security groups, EC2 Instance Connect, IMDSv2 token flow, the Capital One lesson |
+| 02 | [AWS CLI Setup & a Live Key Rotation](aws-labs/02-aws-cli-setup/) | IAM access keys, `aws configure`, `sts get-caller-identity`, signature-error debugging — and rotating a key that leaked into screenshots |
 
 More labs coming: IAM deep-dive, S3 security, PortSwigger SSRF series.
 
