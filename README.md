@@ -15,8 +15,9 @@ Engineer**, one real lab at a time: AWS security labs, web security practice
 | 02 | [AWS CLI Setup & a Live Key Rotation](aws-labs/02-aws-cli-setup/) | IAM access keys, `aws configure`, `sts get-caller-identity`, signature-error debugging — and rotating a key that leaked into screenshots |
 | 03 | [CLI-Only Secure EC2 Launch & IMDSv2](aws-labs/03-cli-only-secure-launch/) | AMI discovery via CLI, no-inbound security group, IMDSv2 required at launch, 401 proof, token debugging |
 | 04 | [IAM Deep-Dive, Adapted](aws-labs/04-iam-deep-dive/) | SCP-blocked group step, BOM file-encoding lesson, hand-written Describe-only policy, least privilege proven by AccessDenied |
+| 05 | [S3 Security](aws-labs/05-s3-security/) | Private-by-default bucket, Block Public Access guardrail, SSE-S3 + versioning, least-privilege reader proven by AccessDenied, full cleanup |
 
-More labs coming: S3 security, PortSwigger SSRF series.
+More labs coming: PortSwigger SSRF series.
 
 ## 🔐 Rules I work by
 
